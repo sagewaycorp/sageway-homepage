@@ -28,7 +28,7 @@ python -m http.server 8765 --directory sageway
 
 ## 이메일 주소·회사 정보 바꾸기
 
-- **이메일**: `index.html` 에서 `sageway9@gmail.com` 을 검색해 모두 바꿉니다. 내비·히어로·문의 섹션의 '메일로 문의' 버튼(`mailto:` 링크, 제목 자동 입력), 연락처 섹션, FAQ 답변에 있습니다.
+- **이메일**: `index.html` 에서 `contact@sageway.co.kr` 을 검색해 모두 바꿉니다. 내비·히어로·문의 섹션의 '메일로 문의' 버튼(`mailto:` 링크, 제목 자동 입력), 연락처 섹션, FAQ 답변에 있습니다.
 - **회사 정보**(상호, 대표, 사업자등록번호, 주소): `index.html` 맨 아래 `<footer class="footer">` 안에 있습니다.
 - **`<title>` / `<meta name="description">` / OG·Twitter 태그 / canonical**: `<head>` 에 있습니다. 도메인을 바꾸면 `jiholee-web.github.io/sageway-homepage` 가 들어간 곳(OG url·image, canonical, JSON-LD, `robots.txt`, `sitemap.xml`)을 모두 새 주소로 바꿉니다.
 - **검색용 회사 정보(JSON-LD)**: `<head>` 의 `<script type="application/ld+json">` 에 상호·대표·사업자번호·주소·상담 시간이 있습니다. 푸터 내용을 바꾸면 여기도 맞춥니다.
